@@ -11,8 +11,8 @@ const CenterContent = () => {
         justifyContent: 'center',
         gap: 2,
         mt: {
-          xs: '10%',
-          sm: '5%',
+          xs: '125%',
+          sm: '10%',
           md: '2%',
           lg: '2%',
           xl: '2%',
