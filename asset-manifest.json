@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "https://sadaftarannum21.github.io/st21/static/js/main.a75ef028.js",
+    "main.js": "https://sadaftarannum21.github.io/st21/static/js/main.debbdb8f.js",
     "static/js/488.45d5534e.chunk.js": "https://sadaftarannum21.github.io/st21/static/js/488.45d5534e.chunk.js",
     "index.html": "https://sadaftarannum21.github.io/st21/index.html",
-    "main.a75ef028.js.map": "https://sadaftarannum21.github.io/st21/static/js/main.a75ef028.js.map",
+    "main.debbdb8f.js.map": "https://sadaftarannum21.github.io/st21/static/js/main.debbdb8f.js.map",
     "488.45d5534e.chunk.js.map": "https://sadaftarannum21.github.io/st21/static/js/488.45d5534e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a75ef028.js"
+    "static/js/main.debbdb8f.js"
   ]
 }
