@@ -4,16 +4,18 @@ const HeaderContainer = ({ children }) => {
   return (
     <Box
       sx={{
-        height: { xs: '30%', sm: '35%' },
         bgcolor: 'primary.light',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
         p: 2,
-        zIndex: 2,
-        position: 'relative',
-        textAlign: 'center',
+        zIndex: 10,
+        position: 'fixed',
+        width: '100%',
+        top: 0,
+        left: 0,
+        overflow: 'hidden',
       }}
     >
       {children}

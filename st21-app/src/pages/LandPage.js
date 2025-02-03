@@ -5,7 +5,7 @@ import CenterContent from '../components/CenterContent.js';
 function LandPage() {
   return (
     <Layout showMiddleBox={true} middleBoxContent={<MiddleBoxContent />}>
-      {<CenterContent />}
+      <CenterContent />
     </Layout>
   );
 }
