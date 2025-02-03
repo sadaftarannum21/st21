@@ -4,14 +4,26 @@ const ServicesCard = ({ title, content, emoji }) => {
   return (
     <Card
       sx={{
-        width: { xs: '100%', sm: 300 },
-        height: 250,
+        width: {
+          xs: '90%',
+          sm: '85%',
+          md: '40%',
+          lg: '30%',
+          xl: '25%',
+        },
+        maxWidth: '100%',
+        height: 'auto',
         padding: 2,
         bgcolor: 'primary.light',
         color: 'text.primary',
         boxShadow: 3,
         borderRadius: 2,
-        marginBottom: 2,
+        marginBottom: { xs: 2, sm: 3, md: 0 },
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        textAlign: 'center',
         '&:hover': {
           boxShadow: 5,
           transform: 'scale(1.05)',
@@ -29,6 +41,7 @@ const ServicesCard = ({ title, content, emoji }) => {
             gap: 1,
             color: 'primary.main',
             fontWeight: 100,
+            justifyContent: 'center',
           }}
         >
           {emoji} {title}
