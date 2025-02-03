@@ -27,7 +27,7 @@ const contactData = [
   {
     title: 'Resume',
     tip: 'Download my Resume',
-    link: 'link-to-resume',
+    link: 'https://www.dropbox.com/scl/fi/26fwdxemb1fknvzww3nt4/Sadaf-Tarannum-Resume-Data.pdf?rlkey=ctn3guy8jype2hj7f5xb63pto&st=5lu2oasj&dl=0',
     icon: <RiDownloadCloud2Line />,
   },
 ];
