@@ -49,6 +49,26 @@ const theme = createTheme({
           alignItems: 'center',
           justifyContent: 'center',
         },
+        '::-webkit-scrollbar': {
+          width: '10px',
+          height: '10px',
+        },
+        '::-webkit-scrollbar-track': {
+          backgroundColor: '#FBDDE5',
+          borderRadius: '10px',
+        },
+        '::-webkit-scrollbar-thumb': {
+          backgroundColor: '#E67193',
+          borderRadius: '10px',
+          border: '2px solid #E67193',
+        },
+        '::-webkit-scrollbar-thumb:hover': {
+          backgroundColor: '#FBDDE5',
+        },
+        '*': {
+          scrollbarWidth: 'thin',
+          scrollbarColor: '#E67193 #E67193',
+        },
       },
     },
   },
